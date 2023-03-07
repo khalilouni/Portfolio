@@ -667,6 +667,11 @@ progress {
     max-width: 1320px;
   }
 }
+
+.font-weight-bold {
+  font-weight: 700!important;
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;

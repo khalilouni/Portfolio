@@ -12,6 +12,7 @@
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
@@ -48,7 +49,8 @@
                         (514) 239-4848 ·
                         <a href="mailto:khalilelouni24@gmail.com">khalilelouni24@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p class="lead mb-5">Bienvenue dans mon portfolio ! Je suis un développeur passionné avec une solide expérience dans le développement <span class="text-primary font-weight-bold"> Frontend </span>et <span class="text-primary font-weight-bold"> Backend </span>. J'ai acquis mes compétences grâce à ma formation en informatique au Collège Maisonneuve et j'ai travaillé sur divers projets passionnants tels que des <span class="text-primary font-weight-bold"> sites web </span>, des <span class="text-primary font-weight-bold"> applications web </span>, des <span class="text-primary font-weight-bold"> applications e-commerce </span>, etc. J'ai acquis une expertise dans des frameworks frontend tels que <span class="text-primary font-weight-bold"> Angular </span>,<span class="text-primary font-weight-bold"> Vue.js </span> et <span class="text-primary font-weight-bold"> React </span>, et des frameworks backend tels que PHP <span class="text-primary font-weight-bold"> Laravel </span>. Je suis convaincu que mes compétences et mon expérience peuvent apporter une valeur ajoutée à toute entreprise ou projet. Contactez-moi si vous êtes intéressé par mes compétences ou si vous cherchez à collaborer sur un projet.</p>
+                    
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/elouni-khalil-it/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
@@ -64,35 +66,61 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <h3 class="mb-0">DÉVELOPPEUR WEB Yulcom technologies ( stage )</h3>
+                            <div class="subheading mt-3">Projet : solution de paiement en ligne</div>
+                            <p>
+                            <ul class="navbar-nav">
+                                <li class="nav-item text-primary font-weight-bold">Analyser les besoins</li>
+                                <li class="nav-item text-primary font-weight-bold">Écrire le code pour développer le produit (backend Laravel - frontend Angular)</li>
+                                <li class="nav-item text-primary font-weight-bold">Tester le
+                                produit (backend Laravel - frontend Angular)</li>
+                                <li class="nav-item text-primary font-weight-bold">Déboguer et corriger les erreurs</li>
+                                <div class="subheading mt-3">Projet : Organisation internationale de la Francophonie</div>
+                            </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item text-primary font-weight-bold">WCAG 2.0, niveau AA</li>
+                            </ul>
+                            </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Janvier 2023 - Mars 2023</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                            <h3 class="mb-0">Préposé aux bénéficiaires | CIUSSS OUEST,
+                            Montréal</h3>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Octobre 2020 - Septembre 2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <h3 class="mb-0"> Expert en production (Bell) | Convergys,
+                            Tunisie</h3>
+                            
+                            <p>
+                            <ul class="navbar-nav">
+                                <li class="nav-item text-primary font-weight-bold">Analyser les besoins</li>
+                                <li class="nav-item text-primary font-weight-bold">Gestion et suivi de l’équipe</li>
+                                <li class="nav-item text-primary font-weight-bold">Planification et gestion des ressources humaines</li>
+                            </ul>
+                            </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Novembre 2016 - Juillet 2019</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            <h3 class="mb-0">  Expert au service à la clientèle niveau 2
+                            (Bell) | Tunisie</h3>
+                            
+                            <p>
+                            <ul class="navbar-nav">
+                                <li class="nav-item text-primary font-weight-bold">Résolution technique</li>
+                                <li class="nav-item text-primary font-weight-bold">Gestion de facturation</li>
+                                <li class="nav-item text-primary font-weight-bold">Prise des appels d’escalade du premier niveau Fidélisation des clients</li>
+                                
+                            </ul>
+                            </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Novembre 2012 - Novembre 2016</span></div>
                     </div>
                 </div>
             </section>
