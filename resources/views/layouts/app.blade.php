@@ -211,43 +211,90 @@
             </section>
             <hr class="m-0" />
             <!-- Awards-->
+            <!-- Carousel wrapper -->
+            
             <section class="resume-section" id="awards">
-                <div class="d-flex justify-content-around ">
-                   
-                        <div class="card mx-2" style="width: 18rem;">
-                            <img src="{{ asset('assets/img/soon.jpg') }}" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Projet Laravel</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Github</a>
+                <div class="container">
+                    <!-- Carousel wrapper -->
+                    <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+                        <!-- Indicators -->
+                        <div class="carousel-indicators">
+                            <button
+                            type="button"
+                            data-mdb-target="#carouselBasicExample"
+                            data-mdb-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                            ></button>
+                            <button
+                            type="button"
+                            data-mdb-target="#carouselBasicExample"
+                            data-mdb-slide-to="1"
+                            aria-label="Slide 2"
+                            ></button>
+                            <button
+                            type="button"
+                            data-mdb-target="#carouselBasicExample"
+                            data-mdb-slide-to="2"
+                            aria-label="Slide 3"
+                            ></button>
+                        </div>
+        
+        
+                        <!-- Inner -->
+                        <div class="carousel-inner">
+                            <!-- Single item -->
+                            <div class="carousel-item active">
+                            <img src="{{ asset('assets/img/soon.jpg') }}" class="d-block w-100" alt="Sunset Over the City"/>
+                            <div class="carousel-caption d-none d-md-block">
+                               
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <button class="btn btn-secondary">Lien Github</button>
+                            </div>
+                            </div>
+        
+                            <!-- Single item -->
+                            <div class="carousel-item">
+                            <img src="{{ asset('assets/img/soon.jpg') }}" class="d-block w-100" alt="Canyon at Nigh"/>
+                            <div class="carousel-caption d-none d-md-block">
+                                
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="btn btn-secondary">Lien Github</button>
+                            </div>
+                            </div>
+        
+                            <!-- Single item -->
+                            <div class="carousel-item">
+                            <img src="{{ asset('assets/img/soon.jpg') }}" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+                            <div class="carousel-caption d-none d-md-block">
+                                
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <button class="btn btn-secondary">Lien Github</button>
+                            </div>
                             </div>
                         </div>
-               
-                    
-                        <div class="card mx-2" style="width: 18rem;">
-                            <img src="{{ asset('assets/img/soon.jpg') }}" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Projet React</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Github</a>
-                            </div>
-                        </div>
-              
-                        <div class="card" style="width: 18rem;">
-                            <img src="{{ asset('assets/img/soon.jpg') }}" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Projet Angular</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Github</a>
-                            </div>
-                        </div>
-              
+                        <!-- Inner -->
+        
+                        <!-- Controls -->
+                        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+     
                 </div>
+                
                 
             </section>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
